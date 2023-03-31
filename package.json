@@ -1,0 +1,22 @@
+{
+  "name": "linkredirector",
+  "version": "1.0.0",
+  "description": "A link director",
+  "main": "index.js",
+  "repository": "git@github.com-joydeep:Jds-23/linkredirector.git",
+  "author": "Joydeep Singha <joydeepsingha68@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.3"
+  },
+  "scripts": {
+    "build": "tsc app.ts && yarn test",
+    "start": "yarn build && node app.js",
+    "test": "node config.test.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security"
+  }
+}

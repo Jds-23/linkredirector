@@ -1,0 +1,13 @@
+{
+  "redirects": [
+    {
+      "path": "/botathon",
+      "url": "https://dfyn-network.medium.com/unleash-lightning-fast-trading-dfyns-botathon-is-your-chance-to-take-defi-trading-to-the-next-81ba488e4726"
+    },
+    {
+      "path": "/botathon-1",
+      "url": "https://polygonscan.com/apis"
+    }
+  ]
+}
+
